@@ -1,0 +1,90 @@
+
+/*-- banner --*/
+
+.header {
+    background: #2a3a4c;
+    border-bottom: 1px ridge rgba(255, 255, 255, 0.29);
+    position: relative;
+    padding-top: 1em;
+}
+/*--logo--*/
+.navbar-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    display: block;
+}
+.navbar-header h1 a {
+    color: cornflowerblue;
+    text-decoration: none;
+    padding: .2em 0.5em;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-header h1 a span {
+    color: #FF9800;
+    font-weight: 400;
+    font-size: 1em !important;
+    text-transform: capitalize;
+}
+/*--//logo--*/
+/*--top-nav--*/
+.navbar.navbar-default{
+    background: none;
+    border: none;
+    margin: 0;
+}
+.navbar.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #99abd5;
+    background: none;
+}
+.navbar-nav > li {
+    margin: 0 .5em;
+}
+.navbar.navbar-default.navbar-nav > li > a {
+    color: #fff;
+    font-size: 1em;
+    padding: 1.8em 0.5em;
+    position: relative;
+}
+.navbar.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
+    color: #FF9800;
+}
+.navbar.navbar-default .navbar-nav > li > a:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    background: #FF9800;
+    height: 3px;
+    width: 0;
+    left: 0;
+    transition: .5s all;
+}
+.navbar.navbar-default .navbar-nav li  a:hover:before,.navbar-default .navbar-nav li a.active:before{
+    width: 100%;
+}
+/*--//top-nav--*/
+.w3layouts-banner-info {
+    text-align: center;
+    margin-top: 10em;
+}
+.agileits-banner-info {
+    width: 75%;
+    margin: 0 auto;
+}
+.agileits-banner-info h3{
+    color: #FFFFFF;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1.3em;
+}
+.agileits-banner-info p{
+    color: #FFFFFF;
+    font-size: .9em;
+    margin: 2em auto 0;
+    line-height: 1.8em;
+    width: 80%;
+}

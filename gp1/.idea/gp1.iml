@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PhpSpreadsheet/infra" isTestSource="true" packagePrefix="PhpOffice\PhpSpreadsheetInfra\" />
+      <sourceFolder url="file://$MODULE_DIR$/PhpSpreadsheet/src/PhpSpreadsheet" isTestSource="false" packagePrefix="PhpOffice\PhpSpreadsheet\" />
+      <sourceFolder url="file://$MODULE_DIR$/PhpSpreadsheet/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/PhpSpreadsheet/tests/PhpSpreadsheetTests" isTestSource="true" packagePrefix="PhpOffice\PhpSpreadsheetTests\" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
